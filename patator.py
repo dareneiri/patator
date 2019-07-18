@@ -2056,7 +2056,8 @@ Please read the README inside for more examples and usage information.
         logger.warn('usage: x actions:conditions')
 
     else: # show progress
-
+     pass
+     '''
       thread_progress = self.thread_progress
       num_threads = self.num_threads
       total_size = self.ns.total_size
@@ -2090,7 +2091,7 @@ Please read the README inside for more examples and usage information.
             total_count,
             total_size/num_threads,
             p.current))
-
+      '''
 # }}}
 
 # Response_Base {{{
